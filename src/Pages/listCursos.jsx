@@ -25,7 +25,7 @@ export default function ListCursos () {
     if(loading){
         return(
             <div className="container">
-               <h2>Carregando os cursos, aguarde...</h2>
+               <h2 className="loading">Carregando os cursos, aguarde...</h2>
             </div>
         )
     }

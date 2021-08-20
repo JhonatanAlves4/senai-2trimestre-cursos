@@ -11,6 +11,9 @@ body {
     /* height: 93.6vh; */
     height: auto;
 }
+h2 .loading {
+    color: snow;
+}
 h1 .list-cursos {
     color: springgreen;
 }

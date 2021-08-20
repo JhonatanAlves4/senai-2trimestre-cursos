@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+body {
+    background-color: #000;
+}
+.container {
+    align-items: center;
+    background-color: #000;
+    /* display: flex; */
+    justify-content: center;
+    /* height: 93.6vh; */
+    height: auto;
+}
+h1 .list-cursos {
+    color: springgreen;
+}
+.container-article {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+    background-color: transparent;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #15172b;
+    border: solid 2px blue;
+}
+h1 {
+    color: lavender;
+    font-family: 'Cairo', sans-serif;
+}
+h4 {
+    color: lavender;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 200;
+}
+.delete {
+    border: none;
+    transition: .2s;
+    height: 20px;
+}
+.delete:hover {
+    color: #fff;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
